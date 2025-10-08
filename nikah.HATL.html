@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Save The Date - DOUMA & SHINOBU</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="nikah.css" />
+</head>
+<body>
+  <main class="hero">
+    <div class="overlay"></div>
+
+    <div class="content">
+      <p class="we-are">We Are Getting Married</p>
+      <h1 class="names">DOUMA &amp; SHINOBU</h1>
+
+      <p class="date">Jumat, 6 Oktober 2025</p>
+      <p class="save">-Save The Date-</p>
+
+      <div class="countdown" aria-live="polite">
+        <div class="count-card"><div class="count" id="days">0</div><div class="label">HARI</div></div>
+        <div class="count-card"><div class="count" id="hours">0</div><div class="label">JAM</div></div>
+        <div class="count-card"><div class="count" id="minutes">0</div><div class="label">MENIT</div></div>
+        <div class="count-card"><div class="count" id="seconds">0</div><div class="label">DETIK</div></div>
+      </div>
+
+      <div class="initials">D &amp; S</div>
+
+      <!-- RSVP -->
+      <section class="rsvp-section">
+        <h2 class="rsvp-title">Konfirmasi Kehadiran</h2>
+        <form id="rsvpForm" class="rsvp-form">
+          <input type="text" id="name" placeholder="Nama Anda" required>
+          <input type="number" id="guests" placeholder="Jumlah Tamu" min="1" required>
+          <select id="status" required>
+            <option value="">Pilih Status Kehadiran</option>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+          </select>
+          <textarea id="message" placeholder="Ucapan / Pesan (opsional)" rows="3"></textarea>
+          <button type="submit">Kirim RSVP</button>
+        </form>
+        <p id="response" class="rsvp-response"></p>
+      </section>
+    </div>
+  </main>
+<section class="photo-section">
+    <h2>Terima Kasih Atas Doa & Kehadirannya 💖</h2>
+    <div class="photo-container">
+      <img src="C:\xampp\htdocs\DDPK\php\download.jpg" alt="DOUMA">
+       <img src="C:\xampp\htdocs\DDPK\php\download (1).webp" alt="SHINOBU">
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
